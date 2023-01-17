@@ -105,7 +105,7 @@ email_body = f"""
 """
 
 # email send
-email_list = ["jackscan11@gmail.com"]
+email_list = []
 def send_email():
     for email in email_list:
         message = MIMEMultipart()
